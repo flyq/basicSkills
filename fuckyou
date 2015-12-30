@@ -1,0 +1,42 @@
+fuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuck
+fuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuck
+fuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuck
+
+flyq@flyq-Lenovo-Erazer-Z510:~/basicSkills$ git remote add origin git@github.com:flyq
+#so far is good
+
+flyq@flyq-Lenovo-Erazer-Z510:~/basicSkills$ git push -u origin master
+To git@github.com:flyq/basicSkills.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:flyq/basicSkills.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+flyq@flyq-Lenovo-Erazer-Z510:~/basicSkills$ git pull origin HEAD 
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:flyq/basicSkills
+ * branch            HEAD       -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+flyq@flyq-Lenovo-Erazer-Z510:~/basicSkills$ git push origin master
+Counting objects: 203, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (175/175), done.
+Writing objects: 100% (202/202), 4.81 MiB | 1.01 MiB/s, done.
+Total 202 (delta 23), reused 0 (delta 0)
+To git@github.com:flyq/basicSkills.git
+   d1c62d6..4c0c5ff  master -> master
+flyq@flyq-Lenovo-Erazer-Z510:~/basicSkills$ git status
+On branch master
+nothing to commit, working directory clean
+
