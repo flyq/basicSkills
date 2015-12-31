@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int is_little_endian(void){
+  union test{
+    int a;
+    char b[4];
+  };
+  union test k;
+  
+  k.a = 1;
+  if (k.b[0] = 0)
+    return 1;
+  else return 0;
+}
+
+void main(void){
+  printf("the result is %.d", is_little_endian());
+}
