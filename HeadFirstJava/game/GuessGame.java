@@ -30,4 +30,33 @@ public class GuessGame{
 	    System.out.println("Player one guessed " + guessp1);
 	    
 	    guessp2 = p2.number;
-	    System.out.println("Py
+	    System.out.println("Player two guessed " + guessp2);
+	    
+	    guessp3 = p3.number;
+	    System.out.println("Player three guessed " + guessp3);
+
+	    if(guessp1 == targetNumber){
+		p1istRight = true;
+	    }
+	    if(guessp2 == targetNumber){
+		p2isRight = true;
+	    }
+	    if(guessp3 == targetNumber){
+		p3isRight = true;
+	    }
+	    
+	    if (p1isRight || p2isRight || p3isRight){
+		System.out.println("We have a winner!");
+		System.out.println("Player one got it right? " + p1isRight);
+		System.out.println("Player two got it right? " + p2isRight);
+		System.out.println("Player three got it right? " + p3isRight);
+		System.out.println("Game is over.");
+		break;
+	    }else{
+		System.out.println("Players will have to try again.");
+	    }
+	}
+    }
+}
+
+       
