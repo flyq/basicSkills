@@ -1,0 +1,210 @@
+各种语言都是要学好的, 语言只是招式, 要学到语言内部的东西:
+
+学习资料:
+	http://zhi.hu/oymO
+	http://zhi.hu/pSeC
+	http://zhi.hu/2TOM(Javascript)
+	http://zhi.hu/D1OW(前端)
+	http://zhi.hu/jDsC(面试等)
+	8zT0/cySR/Bgmh(前端书籍)
+	
+
+学习C++:
+	http://zhi.hu/9kP4
+	入门: 
+	C++ Primer 5th 9-16章详细, 1-8章略读
+	CP5->算导1-14章->SICP->龙书->算导15-35章
+	
+	参考: http://i2p.kimleo.net
+
+
+	怎么阅读CP5:http://zhi.hu/oQeD
+
+
+	<泛型编程与STL>和<STL源码剖析>
+
+	
+学习游戏编程:
+	http://zhi.hu/qgk9
+	由简入难:
+	在熟悉Python下, 借助www.panda3d.org:
+	1.先用PANDA3D用Python开发个贪食蛇;
+	2.再用PANDA3D开发一个走迷宫游戏, 使用免费3D模型做人物;
+	3.将走迷宫改成推箱子;
+	4.把走迷宫添加NPC, 添加PK和道具, 变成一个RPG;
+	5.改成一个ARPG,添加实时战斗;
+	6.为ARPG实现地图编辑器,支持各种事件;
+	7.给ARPG添加宠物, 可以跟随你战斗, 并且可以有好几个;
+	8.实现英雄, 战争迷雾, 科技树, 各种AI, 改成一个Dota;
+	9.给地图编辑器增加更多触发器和行为编辑.
+
+	注: PANDA3D 3天就可以上手, 第五天就能开发一个贪吃蛇.
+
+
+学习JAVA:
+	http://zhi.hu.qXkw
+	1, 初识语法:
+	   怎么操作对象, 操作IF与FOR, 操作List set map --> 线程, IO 和 jdbc.
+	   效果:能够在控制台打印出来小程序, 锻炼一下逻辑思维. JAVASE毕业(入门);
+
+	2, HTML JSP SERVLET 数据库 JAVASCRIPT TOMCAT
+	   效果: 写出一个动态网站; 也许只是一个登录功能.
+	   需要理解:一个用户点击产生的请求的 发起, 接收, 处理, 返回, 
+	   		浏览器与服务器的关系与分工, cookie与session, request和response
+
+	   注:这只是一个JAVA 诞生以来最原始最官方的WEB开发技术, 其他的开源工具都是在这些原始技术上进行封装与改进.
+
+	3, WEB开发的正题:学习三大框架
+	   struts hibernate spring成为熟练的增删改查, 并且理解为什么是这三个,而不是JSP SERBLET JDBC, 体会写MVC, 三层架构的好处.
+
+	   效果:如果学得好, 能够熟练地写个博客, 小论坛. 达到了就业的基本要求.
+
+	4, 第一个公司
+	   把常用的琐碎技术学会:xml的作用与运用,操作文件,运用日志,简化封装常用的类;
+	   把数据库用好,不只是增删改查,包括事务设置,脏数据等;
+	   懂得什么是集群,什么是分布式, 怎么向别的系统发请求.
+	   JACASCRIPT, JQUERY, 无刷新的页面操作, AJAX的请求
+
+	5, 考虑代码质量
+	   a.多线程与异步, 并发的理解, 处理线程安全问题, JMS技术是个很有代表的东西
+	   b.想提升数据库性能, 去了解nosql, memcached redis mongodb, 试着用用, 能缓解mysql等关系数据库的压力
+	   c.出于某些业务需求必须钻研某一个领域,比如, 全文搜索, lucene\solr, 比如工作流jbpm, 比如权限系统, 单点登录, 加分项;
+	   d.发现代码混乱, Bug如山, 开始重视设计模式, 合理地改造自己的代码习惯, 不再被僵化的SSH, MVC束缚住.
+	   e.GOOGLE与各种资料是你进步的动力, 如果还是老是询问别人, 你的技术生涯也就到头了.
+	   
+	   大多数程序员在工作多年后可以到达这个水平, 有的2年, 有的5,6年.
+	   效果: 这是重要的分水岭.
+
+	6, 全新的阶段
+	   a.读优秀开源代码,搞懂当年没有搞懂的基础知识.开始理解THINK IN JAVA的精髓.能写一些底层的代码有时觉得自己的封装比开源代码更好用.
+	   b.WEB的性能与负载能力是重点难点. 集群,分布式,合理的控制数据流向,掌握好网站上下,性能的瓶颈.
+	   c.开始觉得方案无比重要, 一将无能累死千军.关注架构知识,不再满足SSH三层架构到底.领域驱动设计,面向事件开发,敏捷开发等一系列的思想在关键时刻能够决定你的项目的生死,你需根据思想和原理来不断尝试改进
+	   d.多关注各种开源技术. 关键时刻懂得如何选择技术,并快速掌握它.并去尝试其他的语言,我说的是一些运行于JVM上的,比如scala和groovy.
+
+	   效果:胜任项目经理,乃至中小公司的技术总监.
+
+	   一个对技术抱有热情的人, 现在仍然会对开发抱有热情
+
+
+	Java分布式应用学习:
+	http://zhi.hu/8yfT	
+	<大型分布式网站架构设计与实践>
+	<大型网站技术架构:核心原理与案例分析>
+	<大型网站系统与JAVA中间件实践>
+	<分布式JAVA应用:基础与实践>
+
+
+
+	JAVA由中级向高级:
+	http://zhi.hu.EXCU
+	研究Tomcat/Resin/Jetty的源代码,会有收获
+	高性能/高并发的服务器:	
+	1.Socket编程;
+	2.多线程的知识;
+	3.I/O库和异步I/O库;
+	4.TCP/IP协议;
+	多看操作系统相关的书;	
+
+
+
+	iq9X(JAVA学习流程
+
+学习算法:
+	http://zhi.hu/q67x
+	快速应付面试算法,刷题还是硬道理: Leetcode
+	书籍:<算法竞赛入门经典>系列, 从事学术研究:<CLRS>
+	想尽快进入算法领域, 了解算法在实践当中的应用,<Algorithms>, <DATA STRUCTURES AND ALGORITHM ANALYSIS IN C>
+	最后<数据结构(C++语言版本)>(邓俊辉)
+
+	
+	http://zhi.hu/pxm7
+	<算法> --> <CLRS> --> <算法引论>;
+	可以用铅笔和草稿纸做习题, 也可以用LaTex;
+	<CLRS>的习题必做, 能把基础数学课捡回来;
+	先学会写代码,再去读<CLRS>;
+	
+	
+学习Python:
+	https://www.dataquest.io/corses
+
+	Dataquest
+	一系列和数据分析相关的Python教程.
+
+	效果:入门级别
+
+
+
+
+学习数据分析与大数据:
+	http://zhi.hu/qJB3
+	统计学:多元回归分析, 应用分析
+	计算机:R, Python,SQL, matlab与Mathematica
+
+	http://zhi.hu/nx9t
+	<深入浅出数据分析>
+	Python, 学习有关数据分析,重点学习numpy,pandas,matplotlib.   <利用Python进行数据分析>
+	SQL
+
+	中级进阶:
+	A:涉及大量的使用代码和模型去解决实际业务问题:
+	  <数据挖掘导论>边看边撸边Google;
+	  https://www.coursera.org/learn/machine-learning
+	B:使用Python结合数据挖掘知识进行实际案例操作
+	  <集体智慧编程>(全部代码自己写一遍)
+	  https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-0
+	C:<机器学习系统设计>(请自己敲代码)
+	D:<推荐系统实战>
+	E:学习R语言:<R in action>(敲代码), 不推荐coursera的R语言课程
+
+
+
+
+学习HTML:
+	http://zhi.hu/pwEC
+
+
+
+	最后都会去从头看一遍Douglas Crockford的文章
+	Eloquent JavaScript:  http://eloquentjavascript.net
+
+
+
+
+学习数据库:
+	书籍:<database system concept>
+	Stanford CS346: http://web.stanford.edu/class/cs346
+	参考github上的源码
+
+
+
+
+学习HTTP:
+	http://oss.org.cn/man/develop/rfc/RFC1945.txt
+
+
+
+
+从零开始学习系列:
+	http://zhi.hu/fBnz
+	https://github.com/justjavac/Programming-Alpha-To-Omega
+
+
+
+
+
+学习WEB全面:
+	http://zhi.hu/iYLs
+	
+
+
+
+
+考察JavaScript:
+	http://zhi.hu/0WVz
+
+
+
+
+
+
+

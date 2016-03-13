@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+	printf("hello, world!\n");
+	printf("Fuck the Russia woman\n");
+
+
+	return 0;
+}
