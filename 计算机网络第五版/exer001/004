@@ -1,0 +1,7 @@
+参数:
+	(1) 失真度, 
+	(2) 丢包率,
+ 	(3) 保密度.
+
+参考答案
+A uniform delivery time is needed for voice as well as video, so the amount of jitter in the network is important. This could be expressed as the standard deviation of the delivery time. Having shot delay but large variability is actually worse than a somewhat longer delay and low variability. For financial transaction traffic, reliability and security are very important.

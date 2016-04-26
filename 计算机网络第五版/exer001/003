@@ -1,0 +1,6 @@
+高带宽, 高延迟: 大型骨干网
+
+低带宽, 低延迟: 本地局域网
+
+参考答案:
+A transcontinental fiber link might have many gigabits/sec of bandwidth, but the latency will also be high due to the speed of light propagation over thousands of kilometers. In contrast, a 56-kbps modem calling a computer in the same building has low bandwidth and low latency.

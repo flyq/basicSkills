@@ -1,0 +1,6 @@
+Goods:
+	(1)有序
+	(2)容易实现
+
+参考答案
+LAN model can be grown incrementally. If the LAN is just a long cable. it cannot be brought down by a single failure(if the servers are replicated) It is probably cheaper. It provides more computing power and better interactive interfaces.

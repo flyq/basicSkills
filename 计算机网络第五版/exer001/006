@@ -1,0 +1,6 @@
+40000000*2 / 300000000 ~= 0.267 sec
+
+the delay of best is 0.267sec
+
+参考答案:
+The request has to go up and down, and the response has to go up and down. The total path length traversed is thus 160,000 km. The speed of light in air and vacuum is 300,000 km/sec, so the propagation delay alone is 160,000/300,000 sec or about 533 msec

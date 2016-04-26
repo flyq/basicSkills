@@ -1,0 +1,6 @@
+the distance between Newyork and califony is 3923 km.
+time for signal: 3923000 / (300000000*(2/3)) ~= 0.02s >> 10us
+不是主要因素
+
+参考答案:
+No, The speed of propagation is 200,000 km/sec or 200meter/usec, In 10 usec the signal travels 2 km. Thus, each switch adds the equivalent of 2 km of extra cable. If the client and server are separated by 5000 km. traversing even 50 switchs add only 100km to the total path, which is only 2%. Thus, switching delay is not a major factor under these circumstances.
