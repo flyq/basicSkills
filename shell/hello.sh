@@ -2,4 +2,4 @@
 #The first program
 #Author:Flyq 
 
-echo -e "Flyq is kingsman"
+echo -e "Flyq is Kingsman"
