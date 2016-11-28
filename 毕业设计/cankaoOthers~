@@ -1,0 +1,79 @@
+sFlow使用
+
+基于Mininet的网络流量监控14-11-19
+http://www.sdnlab.com/3760.html
+
+是一个应用在高速交换网络中的监控软件
+netflow是同类软件
+http://www.muzixing.com/pages/2014/11/21/sflowru-men-chu-she.html
+
+
+选中其中的7号端口ifinpkts参数，可以看到7号端口接收数据包的速率：
+http://www.linuxdiyf.com/linux/23547.html
+
+总结：得搞清下面这一堆指标参数的意思
+11.ifadminstatus	up
+11.ifdirection	full-duplex
+11.ifindex	11
+11.ifindiscards	0
+11.ifinerrors	0
+11.ifinmulticastpkts	0
+11.ifinoctets	0
+11.ifinpkts	0
+11.ifinucastpkts	0
+11.ifinutilization	0
+11.ifoperstatus	up
+11.ifoutdiscards	0
+11.ifouterrors	0
+11.ifoutoctets	0
+11.ifoutpkts	0
+11.ifoutucastpkts	0
+11.ifoututilization	0
+11.ifspeed	10,000,000,000
+11.iftype	ethernetCsmacd
+2.1000.app_conn_max	0
+2.1000.app_conn_open	0
+2.1000.app_fd_max	0
+2.1000.app_fd_open	0
+2.1000.app_mem_max	0
+2.1000.app_mem_used	37,687,296
+2.1000.app_systemtime	0
+2.1000.app_usertime	0
+31.ifadminstatus	up
+31.ifdirection	unknown
+31.ifindex	31
+31.ifindiscards	0
+31.ifinerrors	0
+31.ifinmulticastpkts	0
+31.ifinoctets	0
+31.ifinpkts	0
+31.ifinucastpkts	0
+31.ifinutilization	0
+31.ifoperstatus	up
+31.ifoutdiscards	0
+31.ifouterrors	0
+31.ifoutoctets	0
+31.ifoutpkts	0
+31.ifoutucastpkts	0
+31.ifoututilization	0
+31.ifspeed	100,000,000
+31.iftype	ethernetCsmacd
+9.ifadminstatus	up
+9.ifdirection	full-duplex
+9.ifindex	9
+9.ifindiscards	0
+9.ifinerrors	0
+9.ifinmulticastpkts	0
+9.ifinoctets	0
+9.ifinpkts	0
+9.ifinucastpkts	0
+9.ifinutilization	0
+9.ifoperstatus	up
+9.ifoutdiscards	0
+9.ifouterrors	0
+9.ifoutoctets	0
+9.ifoutpkts	0
+9.ifoutucastpkts	0
+9.ifoututilization	0
+9.ifspeed	10,000,000,000
+9.iftype	ethernetCsmacd

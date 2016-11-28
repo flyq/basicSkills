@@ -1,2 +1,21 @@
 http://www.cnblogs.com/likailiche/p/4383933.html
 如何安装ryu和mininet
+
+sudo mn --controller remote,ip=10.202.7.46 --mac --switch ovsk,protocols=OpenFlow13 --custom ./sdn01.py --topo mytopo
+
+--topo=tree,7
+
+sudo ryu-manager ryu.app.simple_switch_13
+
+
+参考：http://www.sdnlab.com/3760.html
+	http://tyr.gift/sdn-section1-introduction.html
+
+opendaylight 安全应用:https://wiki.opendaylight.org/view/Defense4All:Tutorial#Defense4All_Design
+
+
+https://github.com/OpenState-SDN/ryu/wiki/DDoS  
+https://github.com/ConnorDillon/openflowddos
+http://www.sdnlab.com/11688.html
+https://github.com/mishra14/DDoSAttackMitigationSystem
+https://github.com/osrg/ryu/blob/master/ryu/app/simple_switch.py
